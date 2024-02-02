@@ -21,7 +21,7 @@ functions={"for normal calculations":1,
 
 Functions=["Normal calculations",
           "Bigger than or less than checker",
-          "Odd or even checker",
+          "Even or odd checker",
           "Divisibility check",
           "Multiplication table",
           "Factorial",
@@ -206,7 +206,7 @@ def main():
         result=normal_calc()
     elif func=="Bigger than or less than checker":
         result=bigger_or_less_than()
-    elif func=="Odd or even checker":
+    elif func=="Even or odd checker":
         result=odd_or_even()
     elif func=="Divisibility check":
         result=divisible()
